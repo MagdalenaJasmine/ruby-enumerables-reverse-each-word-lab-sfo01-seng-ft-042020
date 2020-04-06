@@ -11,5 +11,5 @@ end
 
 def reverse_each_word_with_collect(array)
   array = string.split(/ /)
-  array.collect { |string| string.reverse}
+  array.collect{ |string| string.reverse}
 end 
