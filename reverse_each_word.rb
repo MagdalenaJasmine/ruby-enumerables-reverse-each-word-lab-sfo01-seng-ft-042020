@@ -1,11 +1,11 @@
 def reverse_each_word(string)
-  new_array= ''
+  new_string= ''
   array = string.split(/ /)
   array.each do
     |string| string.reverse 
-   new_array << array
+   new_string 
   end 
-  return new_array.clas == String 
+  return 
 end 
 
 
