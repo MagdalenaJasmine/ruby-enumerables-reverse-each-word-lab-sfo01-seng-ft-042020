@@ -9,8 +9,7 @@ def reverse_each_word(string)
 end 
 
 
-
-#def reverse_each_word(string)
- # array = string.split(/ /)
- # array.collect { |string| string.reverse}
-#end 
+def reverse_each_word_with_collect(string)
+  array = string.split(/ /)
+  array.collect { |string| string.reverse}
+  end 
