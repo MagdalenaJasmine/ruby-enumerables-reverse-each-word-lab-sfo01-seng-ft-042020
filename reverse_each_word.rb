@@ -10,5 +10,5 @@
 
 def reverse_each_word(input)
   input = input.split(/ /)
-  input.collect { |string| string.reverse}
+  input.collect { |string| string.reverse}.join 
 end 
